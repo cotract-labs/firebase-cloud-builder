@@ -10,6 +10,8 @@ RUN apk add --no-cache python3 py3-pip openjdk11-jre bash && \
     firebase setup:emulators:ui && \
     rm -rf /var/cache/apk/*
 
+RUN echo "Successfull installed firebase-tools v$(firebase --version)"
+
 ADD firebase.bash /usr/bin
 RUN chmod +x /usr/bin/firebase.bash
 
