@@ -1,5 +1,7 @@
 # firebase
 
+:information_source: This repo has been extracted and adapted form [GoogleCloudPlatform/cloud-builders-community](https://github.com/GoogleCloudPlatform/cloud-builders-community/tree/master/firebase).
+
 ## Official "Deploying to Firebase" Docs
 
 This build step invokes `firebase` commands that can be used in [Google Cloud Build](https://cloud.google.com/cloud-build/).
